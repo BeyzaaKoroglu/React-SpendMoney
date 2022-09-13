@@ -1,0 +1,32 @@
+#receipt {
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+#receipt_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 350px;
+}
+
+span {
+  display: inline-block;
+  min-width: 150px;
+}
+
+#totalText {
+  text-align: start;
+  font-weight: bold;
+}
+
+#totalPrice {
+  text-align: end;
+  color: green;
+  font-weight: bold;
+}

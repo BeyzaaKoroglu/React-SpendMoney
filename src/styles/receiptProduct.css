@@ -1,0 +1,14 @@
+li > span {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.receiptProduct {
+  text-align: start;
+}
+
+.receiptPrice {
+  color: green;
+  text-align: end;
+  font-weight: bold;
+}

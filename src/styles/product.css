@@ -1,0 +1,52 @@
+.product {
+  display: inline-block;
+  background-color: white;
+  width: 360px;
+  margin: 5px;
+  padding: 10px 0px;
+}
+
+.productName {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.productPrice {
+  color: green;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.transactions {
+  display: inline-block;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  margin: 30px 5px 5px;
+}
+
+.buttons {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  background-color: rgb(234, 237, 239);
+  border: none;
+  border-radius: 5px;
+}
+
+.buyBtn {
+  background-color: green;
+  color: white;
+}
+
+.sellBtn {
+  background-color: red;
+  color: white;
+}
+
+.productQuantity {
+  border: 1px solid rgb(234, 237, 239);
+}
