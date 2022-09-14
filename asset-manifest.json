@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-SpendMoney/static/css/main.d2e0e47d.css",
-    "main.js": "/React-SpendMoney/static/js/main.fb622082.js",
+    "main.js": "/React-SpendMoney/static/js/main.000cff26.js",
     "static/js/787.86dd84be.chunk.js": "/React-SpendMoney/static/js/787.86dd84be.chunk.js",
     "index.html": "/React-SpendMoney/index.html",
     "main.d2e0e47d.css.map": "/React-SpendMoney/static/css/main.d2e0e47d.css.map",
-    "main.fb622082.js.map": "/React-SpendMoney/static/js/main.fb622082.js.map",
+    "main.000cff26.js.map": "/React-SpendMoney/static/js/main.000cff26.js.map",
     "787.86dd84be.chunk.js.map": "/React-SpendMoney/static/js/787.86dd84be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2e0e47d.css",
-    "static/js/main.fb622082.js"
+    "static/js/main.000cff26.js"
   ]
 }
