@@ -16,7 +16,7 @@ function Product({ product }) {
 
   return (
     <div className="product">
-      <img src={product.image} alt="" height={"200px"} />
+      <img src={product.image} alt="" />
       <p className="productName">{product.name}</p>
       <p className="productPrice">
         ${product.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}

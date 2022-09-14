@@ -12,3 +12,9 @@ li > span {
   text-align: end;
   font-weight: bold;
 }
+
+@media (max-width: 479px) {
+  li > span {
+    min-width: 75px;
+  }
+}

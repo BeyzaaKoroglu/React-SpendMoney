@@ -30,3 +30,12 @@ span {
   color: green;
   font-weight: bold;
 }
+
+@media (max-width: 479px) {
+  hr {
+    width: 260px;
+  }
+  span {
+    min-width: 130px;
+  }
+}

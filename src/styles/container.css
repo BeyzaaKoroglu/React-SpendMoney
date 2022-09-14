@@ -1,6 +1,11 @@
 .container {
   text-align: center;
-  padding-bottom: 250px;
   background-color: rgb(234, 237, 239);
   padding: 15px 25px;
+}
+
+@media (max-width: 479px) {
+  .container {
+    padding: 15px 5px;
+  }
 }
