@@ -1,12 +1,17 @@
 import React from "react";
 import "../styles/receiptProduct.css";
 
-function ReceiptProduct() {
+function ReceiptProduct({ product }) {
   return (
     <li>
-      <span className="receiptProduct">Car</span>
-      <span className="receiptQuantity">x1</span>
-      <span className="receiptPrice">$15m</span>
+      <span className="receiptProduct">{product.name}</span>
+      <span className="receiptQuantity">x{product.quantity}</span>
+      <span className="receiptPrice">
+        $
+        {(product.price * product.quantity)
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+      </span>
     </li>
   );
 }

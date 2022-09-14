@@ -1,4 +1,7 @@
 #balance {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   color: white;
   background-color: green;
   padding: 15px;
