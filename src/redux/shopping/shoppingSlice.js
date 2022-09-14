@@ -64,7 +64,29 @@ export const shoppingSlice = createSlice({
     ],
     totalPayment: 0,
   },
-  reducers: {},
+  reducers: {
+    sellProduct: {
+      reducer: (state, action) => {
+        const product = state.products.find(
+          (product) => product.id === action.payload
+        );
+        product.quantity -= 1;
+        state.totalPayment -= product.price;
+        state.balance += product.price;
+      },
+    },
+    buyProduct: {
+      reducer: (state, action) => {
+        const product = state.products.find(
+          (product) => product.id === action.payload
+        );
+        product.quantity += 1;
+        state.totalPayment += product.price;
+        state.balance -= product.price;
+      },
+    },
+  },
 });
 
+export const { sellProduct, buyProduct } = shoppingSlice.actions;
 export default shoppingSlice.reducer;
